@@ -18,5 +18,9 @@ end
 
 # For Heroku support
 gem 'rack-contrib'
-
 gem 'pg'
+
+# Bourbon, Neat, and Bitters for CSS
+gem 'bourbon'
+gem 'neat'
+gem 'bitters'
