@@ -24,4 +24,4 @@ run lambda { |env|
 }
 
 
-run Middleman.server
+#run Middleman.server

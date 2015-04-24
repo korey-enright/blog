@@ -1,0 +1,74 @@
+2015-04-24T17:30:52.503758+00:00 heroku[api]: Release v3 created by kenright@iit.edu
+2015-04-24T17:30:52.503758+00:00 heroku[api]: Set LANG, RACK_ENV config vars by kenright@iit.edu
+2015-04-24T17:30:52.895422+00:00 heroku[api]: Scale to web=1 by kenright@iit.edu
+2015-04-24T17:30:53.010230+00:00 heroku[api]: Deploy 689c98c by kenright@iit.edu
+2015-04-24T17:30:53.010230+00:00 heroku[api]: Release v4 created by kenright@iit.edu
+2015-04-24T17:30:56.347066+00:00 heroku[web.1]: Starting process with command `bundle exec rackup config.ru -p 7871`
+2015-04-24T17:30:58.912096+00:00 app[web.1]: /app/config.ru:27:in `block in <main>': undefined method `server' for Middleman:Module (NoMethodError)
+2015-04-24T17:30:58.912119+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/builder.rb:55:in `instance_eval'
+2015-04-24T17:30:58.912122+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/builder.rb:55:in `initialize'
+2015-04-24T17:30:58.912123+00:00 app[web.1]: 	from /app/config.ru:in `new'
+2015-04-24T17:30:58.912125+00:00 app[web.1]: 	from /app/config.ru:in `<main>'
+2015-04-24T17:30:58.912130+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/builder.rb:49:in `eval'
+2015-04-24T17:30:58.912132+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/builder.rb:49:in `new_from_string'
+2015-04-24T17:30:58.912133+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/builder.rb:40:in `parse_file'
+2015-04-24T17:30:58.912135+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/server.rb:299:in `build_app_and_options_from_config'
+2015-04-24T17:30:58.912136+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/server.rb:208:in `app'
+2015-04-24T17:30:58.912138+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/server.rb:336:in `wrapped_app'
+2015-04-24T17:30:58.912140+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/server.rb:272:in `start'
+2015-04-24T17:30:58.912141+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/server.rb:147:in `start'
+2015-04-24T17:30:58.912142+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/bin/rackup:4:in `<top (required)>'
+2015-04-24T17:30:58.912144+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/bin/rackup:23:in `load'
+2015-04-24T17:30:58.912145+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/bin/rackup:23:in `<main>'
+2015-04-24T17:30:59.698159+00:00 heroku[web.1]: Process exited with status 1
+2015-04-24T17:30:59.709032+00:00 heroku[web.1]: State changed from starting to crashed
+2015-04-24T17:30:59.710033+00:00 heroku[web.1]: State changed from crashed to starting
+2015-04-24T17:31:03.644939+00:00 heroku[web.1]: Starting process with command `bundle exec rackup config.ru -p 34116`
+2015-04-24T17:31:06.526558+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/builder.rb:55:in `initialize'
+2015-04-24T17:31:06.526599+00:00 app[web.1]: 	from /app/config.ru:in `new'
+2015-04-24T17:31:06.526622+00:00 app[web.1]: 	from /app/config.ru:in `<main>'
+2015-04-24T17:31:06.526662+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/builder.rb:49:in `new_from_string'
+2015-04-24T17:31:06.526535+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/builder.rb:55:in `instance_eval'
+2015-04-24T17:31:06.526485+00:00 app[web.1]: /app/config.ru:27:in `block in <main>': undefined method `server' for Middleman:Module (NoMethodError)
+2015-04-24T17:31:06.526734+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/server.rb:208:in `app'
+2015-04-24T17:31:06.526753+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/server.rb:336:in `wrapped_app'
+2015-04-24T17:31:06.526772+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/server.rb:272:in `start'
+2015-04-24T17:31:06.526791+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/server.rb:147:in `start'
+2015-04-24T17:31:06.526829+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/bin/rackup:4:in `<top (required)>'
+2015-04-24T17:31:06.526643+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/builder.rb:49:in `eval'
+2015-04-24T17:31:06.526849+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/bin/rackup:23:in `load'
+2015-04-24T17:31:06.526869+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/bin/rackup:23:in `<main>'
+2015-04-24T17:31:06.526687+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/builder.rb:40:in `parse_file'
+2015-04-24T17:31:06.526714+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/server.rb:299:in `build_app_and_options_from_config'
+2015-04-24T17:31:07.438048+00:00 heroku[web.1]: State changed from starting to crashed
+2015-04-24T17:31:07.420012+00:00 heroku[web.1]: Process exited with status 1
+2015-04-24T17:31:12.397718+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=mysterious-shelf-5875.herokuapp.com request_id=f814f802-9514-4f36-b9d1-d6a212c6b530 fwd="137.254.4.8" dyno= connect= service= status=503 bytes=
+2015-04-24T17:31:13.503791+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=mysterious-shelf-5875.herokuapp.com request_id=3b859169-40b2-4a51-9281-6074aa06c209 fwd="137.254.4.8" dyno= connect= service= status=503 bytes=
+2015-04-24T17:31:13.818292+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=mysterious-shelf-5875.herokuapp.com request_id=71e71a59-0b24-424d-8cae-f66062a32612 fwd="137.254.4.8" dyno= connect= service= status=503 bytes=
+2015-04-24T17:31:18.423422+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=mysterious-shelf-5875.herokuapp.com request_id=b1aad587-5432-4b83-8987-793fc229af5e fwd="137.254.4.8" dyno= connect= service= status=503 bytes=
+2015-04-24T17:31:19.713284+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=mysterious-shelf-5875.herokuapp.com request_id=364a96b4-fb74-40c9-bbf4-ac7fdcd01385 fwd="137.254.4.8" dyno= connect= service= status=503 bytes=
+2015-04-24T17:31:20.767902+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=mysterious-shelf-5875.herokuapp.com request_id=e903f709-653f-4d81-8519-79b0f8261010 fwd="137.254.4.8" dyno= connect= service= status=503 bytes=
+2015-04-24T17:34:11.086170+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=mysterious-shelf-5875.herokuapp.com request_id=5d10089c-2ae9-4fe2-ba37-9421ccfbc7b9 fwd="137.254.4.8" dyno= connect= service= status=503 bytes=
+2015-04-24T17:37:37.425460+00:00 heroku[web.1]: State changed from crashed to starting
+2015-04-24T17:37:37.331432+00:00 heroku[api]: Deploy e612d96 by kenright@iit.edu
+2015-04-24T17:37:37.331432+00:00 heroku[api]: Release v5 created by kenright@iit.edu
+2015-04-24T17:37:40.941077+00:00 heroku[web.1]: Starting process with command `bundle exec rackup config.ru -p 33255`
+2015-04-24T17:37:43.627109+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/builder.rb:49:in `eval'
+2015-04-24T17:37:43.627148+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/builder.rb:40:in `parse_file'
+2015-04-24T17:37:43.627128+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/builder.rb:49:in `new_from_string'
+2015-04-24T17:37:43.627022+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/builder.rb:55:in `instance_eval'
+2015-04-24T17:37:43.627045+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/builder.rb:55:in `initialize'
+2015-04-24T17:37:43.627067+00:00 app[web.1]: 	from /app/config.ru:in `new'
+2015-04-24T17:37:43.627088+00:00 app[web.1]: 	from /app/config.ru:in `<main>'
+2015-04-24T17:37:43.626982+00:00 app[web.1]: /app/config.ru:27:in `block in <main>': undefined method `server' for Middleman:Module (NoMethodError)
+2015-04-24T17:37:43.627167+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/server.rb:299:in `build_app_and_options_from_config'
+2015-04-24T17:37:43.627206+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/server.rb:336:in `wrapped_app'
+2015-04-24T17:37:43.627186+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/server.rb:208:in `app'
+2015-04-24T17:37:43.627225+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/server.rb:272:in `start'
+2015-04-24T17:37:43.627244+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/server.rb:147:in `start'
+2015-04-24T17:37:43.627271+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/bin/rackup:4:in `<top (required)>'
+2015-04-24T17:37:43.627291+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/bin/rackup:23:in `load'
+2015-04-24T17:37:43.627310+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/bin/rackup:23:in `<main>'
+2015-04-24T17:37:44.554473+00:00 heroku[web.1]: State changed from starting to crashed
+2015-04-24T17:37:44.542436+00:00 heroku[web.1]: Process exited with status 1
+2015-04-24T17:37:50.176571+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=mysterious-shelf-5875.herokuapp.com request_id=2c420c3f-ea4e-454f-a2d5-05479017b72d fwd="137.254.4.8" dyno= connect= service= status=503 bytes=
