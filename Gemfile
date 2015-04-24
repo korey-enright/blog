@@ -18,3 +18,5 @@ end
 
 # For Heroku support
 gem 'rack-contrib'
+
+gem 'pg'
